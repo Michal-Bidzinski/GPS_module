@@ -14,7 +14,7 @@ Next step is create workspace, download and build repository:
 ```
 mkdir -p catkin_gps/src
 cd catkin_gps/src/
-git clone https://github.com/Michal-Bidzinski/OpenStreetMap_path_generator.git
+git clone https://github.com/Michal-Bidzinski/GPS_module.git
 cd ..
 catkin_make
 ```
@@ -26,15 +26,10 @@ source devel/setup.bash
 ```
 ## Run
 
-To run GPS module:
-```bash
-bash ./src/OpenStreetMap_path_generator/scripts/prepare_gps.sh 
-```
-
 To start work with GPS module run the bash script and provide the correct usb port:
 
 ```bash
-./src/gps/scripts/run_gps.sh /dev/ttyUSB0
+./src/GPS_module/scripts/run_gps.sh /dev/ttyUSB0
 ```
 
 You can also run separatelly:
