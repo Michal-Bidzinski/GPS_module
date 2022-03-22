@@ -1,0 +1,6 @@
+<launch>
+
+  <param name="port" value="/dev/ttyUSB0"/>
+  <node pkg="gps" type="gps.py" name="gps" output="screen"/>
+
+</launch>
