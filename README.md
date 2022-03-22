@@ -3,7 +3,7 @@
 This repository contains the program to handle the gps module, GY-GPS6MV2 GPS. The program publishes localization data using the ROS system.
 
 ## Installation
-First, install ROS. This repository was tested on Ubuntu 18.04 with ROS MELODIC (http://wiki.ros.org/melodic/Installation/Ubuntu).
+First, install ROS. This repository was tested on Ubuntu 18.04 with ROS MELODIC (http://wiki.ros.org/melodic/Installation/Ubuntu) and  Ubuntu 20.04 with ROS NOETIC (http://wiki.ros.org/noetic/Installation/Ubuntu).
 
 In addition to the basic python libraries, you need to install the pyserial library (version 3.5 was tested):
 ```
