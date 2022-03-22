@@ -11,7 +11,7 @@ from gps_library import gps_read_coordinates
 class GPS:
     def __init__(self, port):
         # definition of serial port
-        self.port = "/dev/ttyUSB0"
+        self.port = port
         self.ser = serial.Serial(self.port, baudrate=9600, timeout=0.5)
 
         # receive coordinates flag
